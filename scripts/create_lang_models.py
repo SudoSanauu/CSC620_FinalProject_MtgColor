@@ -71,7 +71,7 @@ outData = {
 }
 
 with open(dest_path, 'w') as f:
-	json.dump(outData, f)
+    json.dump(outData, f, ensure_ascii=False, sort_keys=True, indent=2)
 
 
 
