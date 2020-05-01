@@ -26,6 +26,10 @@ print("reading from ", card_path)
 with open(card_path, 'r') as f: # , format="utf8"?
     cards = json.load(f)
 
+# rules_token_count = 0
+# rules_freq_dict = {}
+# flavor_token_count = 0
+# flavor_freq_dict = {}
 
 token_freq = {
     'R': {'rules': {}, 'flavor': {}},
@@ -52,6 +56,14 @@ card_count = {
     'G': 0
 }
 
+card_list = {
+    'R': [],
+    'B': [],
+    'U': [],
+    'W': [],
+    'G': []
+}
+
 for c in cards:
     if "common" not in c['rarity']:
         continue
@@ -63,12 +75,17 @@ for c in cards:
     
     card_count['total'] += 1
     card_count[color] += 1
+    card_list[color].append(c)
 
     if rules_tokens == []:
+		# insert_incr_dict(rules_freq_dict, '')
+		# rules_token_count += 1
         insert_incr_dict(token_freq[color]['rules'], '')
         token_count[color]['rules'] +=1
     else:
         for t in rules_tokens:
+			# insert_incr_dict(rules_freq_dict, t)
+			# rules_token_count += 1
             insert_incr_dict(token_freq[color]['rules'], t)
             token_count[color]['rules'] +=1
 
@@ -77,17 +94,35 @@ for c in cards:
     if 'flavorText' in c:
         flavor_tokens = tp.flavor_tokenize(c)
         if flavor_tokens == []:
+			# insert_incr_dict(flavor_freq_dict, '')
+			# flavor_token_count += 1
             insert_incr_dict(token_freq[color]['flavor'], '')
             token_count[color]['flavor'] +=1
         else:
             for t in flavor_tokens:
+				# insert_incr_dict(flavor_freq_dict, t)
+				# flavor_token_count += 1
                 insert_incr_dict(token_freq[color]['flavor'], t)
                 token_count[color]['flavor'] +=1
     else:
+		# insert_incr_dict(flavor_freq_dict, '')
+		# flavor_token_count += 1
         insert_incr_dict(token_freq[color]['flavor'], '')
         token_count[color]['flavor'] +=1
 
-
+"""
+outData = {
+	'numCards': len(cards),
+	'rules': {
+		'token_count': rules_token_count,
+		'freq': rules_freq_dict
+	},
+	'flavor': {
+		'token_count': flavor_token_count,
+		'freq': flavor_freq_dict
+	}
+}
+"""
 
 outData = {
     'numCards': card_count['total'],
@@ -147,13 +182,6 @@ outData = {
         }
     }
 }
-
-print token_freq
-print "\n"
-print token_count
-print "\n"
-print len(cards)
-print card_count
 
 with open(dest_path, 'w') as f:
     json.dump(outData, f)
