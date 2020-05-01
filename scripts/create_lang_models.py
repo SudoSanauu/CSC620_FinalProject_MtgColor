@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import sys
 import json
 import re
@@ -31,6 +29,7 @@ with open(card_path, 'r') as f: # , format="utf8"?
 # flavor_token_count = 0
 # flavor_freq_dict = {}
 
+allowed_types = ["Instant", "Sorcery"]
 token_freq = {
     'R': {'rules': {}, 'flavor': {}},
     'B': {'rules': {}, 'flavor': {}},
@@ -67,11 +66,13 @@ card_list = {
 for c in cards:
     if "common" not in c['rarity']:
         continue
-    if len(c['colorIdentity']) > 1 or c['colorIdentity'][0] not in token_freq:
+    if len(c['colors']) > 1 or c['colors'][0] not in token_freq:
         continue
-
+    if c['type'] not in allowed_types:
+        continue
+        
     rules_tokens = tp.rules_tokenize(c)
-    color = c['colorIdentity'][0]
+    color = c['colors'][0]
     
     card_count['total'] += 1
     card_count[color] += 1
@@ -184,7 +185,7 @@ outData = {
 }
 
 with open(dest_path, 'w') as f:
-    json.dump(outData, f)
+    json.dump(outData, f, ensure_ascii=False, sort_keys=True, indent=2)
 
 
 
