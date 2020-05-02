@@ -14,7 +14,7 @@ with open(card_path, 'r') as f: # , format="utf8"?
     cards = json.load(f)
     
 allowed_types = ["Instant", "Sorcery"]
-allowed_colors = ["B", "W", "U", "G", " R"]
+allowed_colors = ["B", "W", "U", "G", "R"]
 color_long = {'R': 'Red', 'U': 'Blue', 'B': 'Black', 'W': 'White', 'G': 'Green'}
 
 card_list = {
