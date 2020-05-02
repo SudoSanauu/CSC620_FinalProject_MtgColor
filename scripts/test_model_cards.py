@@ -1,6 +1,8 @@
 import sys
 import json
 import re
+import text_processing as tp
+from math import log2
 
 
 if len(sys.argv) != 3:
@@ -10,7 +12,7 @@ if len(sys.argv) != 3:
 def get_prob(token, model):
 	# this is wrong and not real leplace smoothing
 	if token in model['freq']:
-		return model['freq'][token] / model['token_count']
+		return log2(model['freq'][token] / model['token_count'])
 	print("can't find token ", token, " in model.")
 	raise error
 
@@ -37,50 +39,63 @@ split_on_space = re.compile(' ')
 
 
 
+# for c in cards:
+# 	rules_tokens = tp.rules_tokenize(c)
+#
+# 	rules_prob = 0.0
+#
+# 	if rules_tokens == []:
+# 		rules_prob += get_prob('', model['rules'])
+# 	for t in rules_tokens:
+# 			rules_prob += get_prob(t, model['rules'])
+#
+#
+# 	flavor_prob = 0.0
+#
+# 	if 'flavorText' in c:
+# 		flavor_tokens = tp.flavor_tokenize(c)
+#
+#
+# 		if flavor_tokens == []:
+# 			flavor_prob += get_prob('', model['flavor'])
+# 		else:
+# 			for t in flavor_tokens:
+# 				flavor_prob += get_prob(t, model['flavor'])
+# 	else:
+# 		flavor_prob = get_prob('', model['flavor'])
+#
+# 	print("For card ", c['name'],':')
+# 	print("RP: ", 2 ** rules_prob, " FP: ", 2 ** flavor_prob, " TP: ", 2 ** (rules_prob + flavor_prob))
+	# test 3 setups: just rules, just flavor, and rules * flavor, use f1
+
 for c in cards:
-	# replace cardname with @ and makes all lowercase
-	new_rules = c['text'].replace(c['name'], "@").lower()
+	rules_bigram = tp.rules_bigram(c)
 
-	# remove all reminder text in parens
-	new_rules = no_reminder.sub("", new_rules)
+	rules_prob = 0.0
 
-	# get rid of useless characters
-	new_rules = no_useless.sub("", new_rules)
-
-	# replace \n with ' '
-	new_rules = no_newline.sub(" ", new_rules)
-
-	# edit : to be separated with spaces so it becomes its own token
-	new_rules = space_colon.sub(' :', new_rules)
-
-	# put into dict
-	rules_tokens = split_on_space.split(new_rules)
-
-	rules_prob = 1.0
-
-	for t in rules_tokens:
-		rules_prob *= get_prob(t, model['rules'])
+	if rules_bigram == []:
+		rules_prob += get_prob('', model['rules'])
+	for t in rules_bigram:
+			rules_prob += get_prob(t, model['rules'])
 
 
-	flavor_prob = 1.0
+	flavor_prob = 0.0
 
 	if 'flavorText' in c:
-		new_flavor = c['flavorText'].lower()
+		flavor_bigram = tp.rules_bigram(c)
 
-		# get rid of useless characters
-		new_flavor = no_useless.sub("", new_flavor)
 
-		# replace \n with ' '
-		new_flavor = no_newline.sub(" ", new_flavor)
-
-		# put into dict
-		flavor_tokens = split_on_space.split(new_flavor)
-
-		for t in flavor_tokens:
-			flavor_prob *= get_prob(t, model['flavor'])	
+		if flavor_bigram == []:
+			flavor_prob += get_prob('', model['flavor'])
+		else:
+			for t in flavor_bigram:
+				flavor_prob += get_prob(t, model['flavor'])
 	else:
-		flavor_prob = get_prob('', model['flavor'])	
+		flavor_prob = get_prob('', model['flavor'])
 
 	print("For card ", c['name'],':')
-	print("RP: ", rules_prob, " FP: ", flavor_prob, " TP: ", rules_prob * flavor_prob)
+	print("RP: ", 2 ** rules_prob, " FP: ", 2 ** flavor_prob, " TP: ", 2 ** (rules_prob + flavor_prob))
 
+# 1) Make one data file
+# 2) Make better pre-processing (stop list)
+# 3) upgrade to bi/trigrams

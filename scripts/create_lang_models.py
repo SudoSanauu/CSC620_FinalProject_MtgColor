@@ -1,6 +1,7 @@
 import sys
 import json
 import re
+import text_processing as tp
 
 
 def insert_incr_dict(inDict, token):
@@ -24,12 +25,6 @@ with open(card_path, 'r') as f: # , format="utf8"?
 	cards = json.load(f)
 
 
-no_reminder = re.compile("\([^)]*\)")
-no_useless = re.compile("[\.,'\"!]")
-no_newline = re.compile("\n")
-space_colon = re.compile(":")
-split_on_space = re.compile(' ')
-
 
 rules_token_count = 0
 rules_freq_dict = {}
@@ -37,46 +32,36 @@ flavor_token_count = 0
 flavor_freq_dict = {}
 
 for c in cards:
-	# replace cardname with @ and makes all lowercase
-	new_rules = c['text'].replace(c['name'], "@").lower()
+	# rules_tokens = tp.rules_tokenize(c)
+	#
+	# if rules_tokens == []:
+	# 	insert_incr_dict(rules_freq_dict, '')
+	# 	rules_token_count += 1
+	# else:
+	# 	for t in rules_tokens:
+	# 		insert_incr_dict(rules_freq_dict, t)
+	# 		rules_token_count += 1
 
-	# remove all reminder text in parens
-	new_rules = no_reminder.sub("", new_rules)
+	rules_bigram = tp.rules_bigram(c)
 
-	# get rid of useless characters
-	new_rules = no_useless.sub("", new_rules)
-
-	# replace \n with ' '
-	new_rules = no_newline.sub(" ", new_rules)
-
-	# edit : to be separated with spaces so it becomes its own token
-	new_rules = space_colon.sub(' :', new_rules)
-
-	# put into dict
-	rules_tokens = split_on_space.split(new_rules)
-	if rules_tokens == []:
+	if rules_bigram == []:
 		insert_incr_dict(rules_freq_dict, '')
 		rules_token_count += 1
-	# else:
-	for t in rules_tokens:
-		insert_incr_dict(rules_freq_dict, t)
-		rules_token_count += 1
+	else:
+		for t in rules_bigram:
+			insert_incr_dict(rules_freq_dict, t)
+			rules_token_count += 1
 
 
 	if 'flavorText' in c:
-		new_flavor = c['flavorText'].lower()
-
-		# get rid of useless characters
-		new_flavor = no_useless.sub("", new_flavor)
-
-		# replace \n with ' '
-		new_flavor = no_newline.sub(" ", new_flavor)
-
-		# put into dict
-		flavor_tokens = split_on_space.split(new_flavor)			
-		for t in flavor_tokens:
-			insert_incr_dict(flavor_freq_dict, t)
+		flavor_tokens = tp.rules_bigram
+		if flavor_tokens == []:
+			insert_incr_dict(flavor_freq_dict, '')
 			flavor_token_count += 1
+		else:
+			for t in flavor_tokens:
+				insert_incr_dict(flavor_freq_dict, t)
+				flavor_token_count += 1
 	else:
 		insert_incr_dict(flavor_freq_dict, '')
 		flavor_token_count += 1
@@ -97,7 +82,5 @@ outData = {
 
 with open(dest_path, 'w') as f:
 	json.dump(outData, f)
-
-
 
 
