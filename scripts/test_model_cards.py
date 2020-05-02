@@ -12,9 +12,9 @@ if len(sys.argv) != 3:
 def get_prob(token, model):
 	# this is wrong and not real leplace smoothing
 	if token in model['freq']:
-		return log2(model['freq'][token] / model['token_count'])
-	print("can't find token ", token, " in model.")
-	raise error
+		return log2(model['freq'][token] / (model['token_count'] + 1))
+	return log2(1 / (model['token_count'] + 1))
+
 
 
 model_path = sys.argv[1]
@@ -24,78 +24,45 @@ print("reading model from ", model_path)
 with open(model_path, 'r') as f: # , format="utf8"?
 	model = json.load(f)
 
-
 print("reading cards from ", card_path)
 with open(card_path, 'r') as f: # , format="utf8"?
 	cards = json.load(f)
 
-
-
-no_reminder = re.compile("\([^)]*\)")
-no_useless = re.compile("[\.,'\"!]")
-no_newline = re.compile("\n")
-space_colon = re.compile(":")
-split_on_space = re.compile(' ')
-
-
-
-# for c in cards:
-# 	rules_tokens = tp.rules_tokenize(c)
-#
-# 	rules_prob = 0.0
-#
-# 	if rules_tokens == []:
-# 		rules_prob += get_prob('', model['rules'])
-# 	for t in rules_tokens:
-# 			rules_prob += get_prob(t, model['rules'])
-#
-#
-# 	flavor_prob = 0.0
-#
-# 	if 'flavorText' in c:
-# 		flavor_tokens = tp.flavor_tokenize(c)
-#
-#
-# 		if flavor_tokens == []:
-# 			flavor_prob += get_prob('', model['flavor'])
-# 		else:
-# 			for t in flavor_tokens:
-# 				flavor_prob += get_prob(t, model['flavor'])
-# 	else:
-# 		flavor_prob = get_prob('', model['flavor'])
-#
-# 	print("For card ", c['name'],':')
-# 	print("RP: ", 2 ** rules_prob, " FP: ", 2 ** flavor_prob, " TP: ", 2 ** (rules_prob + flavor_prob))
-	# test 3 setups: just rules, just flavor, and rules * flavor, use f1
-
 for c in cards:
-	rules_bigram = tp.rules_bigram(c)
+	rules_tokens = tp.rules_tokenize(c)
+	card_probs = []
 
-	rules_prob = 0.0
+	for color in model:
+		m = model[color]
 
-	if rules_bigram == []:
-		rules_prob += get_prob('', model['rules'])
-	for t in rules_bigram:
-			rules_prob += get_prob(t, model['rules'])
+		# scale by prob of card in model
+		rules_prob = log2(m['numCards'])
 
+		if rules_tokens == []:
+			rules_prob += get_prob('', m['rules'])
+		for t in rules_tokens:
+			rules_prob += get_prob(t, m['rules'])
 
-	flavor_prob = 0.0
+		flavor_prob = log2(m['numCards'])
 
-	if 'flavorText' in c:
-		flavor_bigram = tp.rules_bigram(c)
+		if 'flavorText' in c:
+			flavor_tokens = tp.flavor_tokenize(c)
 
-
-		if flavor_bigram == []:
-			flavor_prob += get_prob('', model['flavor'])
+			if flavor_tokens == []:
+				flavor_prob += get_prob('', m['flavor'])	
+			else:
+				for t in flavor_tokens:
+					flavor_prob += get_prob(t, m['flavor'])	
 		else:
-			for t in flavor_bigram:
-				flavor_prob += get_prob(t, model['flavor'])
-	else:
-		flavor_prob = get_prob('', model['flavor'])
+			flavor_prob = get_prob('', m['flavor'])	
+		card_probs.append({
+			'rules_prob': rules_prob,
+			'flavor_prob': flavor_prob,
+			'color': color
+		})
 
 	print("For card ", c['name'],':')
-	print("RP: ", 2 ** rules_prob, " FP: ", 2 ** flavor_prob, " TP: ", 2 ** (rules_prob + flavor_prob))
-
-# 1) Make one data file
-# 2) Make better pre-processing (stop list)
-# 3) upgrade to bi/trigrams
+	
+	for d in card_probs:
+		s = "{0} RP: {1:f} FP: {2:f} TP: {3:f}"
+		print(s.format(d['color'], d['rules_prob'], d['flavor_prob'], (d['rules_prob'] + d['flavor_prob'])))

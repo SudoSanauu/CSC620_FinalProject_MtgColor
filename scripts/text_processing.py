@@ -47,11 +47,11 @@ def flavor_tokenize(card):
 	# split tokens and remove stop words
 	return list(filter(f_slist_fun, split_pattern.split(new_flavor)))
 
-def rules_bigram(card):
-	tokenlist = rules_tokenize(card)
-	for i in range(0, len(tokenlist)-1):
+def token_to_bigram(tokens):
+	outlist = ['']*(len(tokens)-1)
+	for i in range(0, len(tokens)-1):
 		token1 = tokenlist[i]
 		token2 = tokenlist[i+1]
-		token = token1 + ',' +  token2
+		outlist[i] = token1 + ',' +  token2
 
-	return list(token)
+	return outlist
