@@ -53,11 +53,16 @@ def token_to_bigram(tokens):
 def token_to_ngrams(tokens, ngram_size):
 	# S & E are start and end tokens
 	new_tok = ['S'] + tokens + ['E']
+
+	# catch case of too small to prevent out of index errors
 	if len(new_tok) <= ngram_size:
 		ngram = ','.join(new_tok)
 		return ['(' + ngram + ')']
+
+	# allocate list for performance
 	outlist = ['']*(len(new_tok)-(ngram_size-1))
+
 	for i in range(0, len(new_tok)-(ngram_size-1)):
-		ngram = ','.join(new_tok[i:(i+ngram_size)])
+		ngram = ','.join( new_tok[i:(i+ngram_size)] )
 		outlist[i] = '(' + ngram + ')'
 	return outlist	
