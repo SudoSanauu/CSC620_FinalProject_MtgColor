@@ -22,7 +22,6 @@ dest_path = sys.argv[2]
 
 print("reading from ", card_path)
 with open(card_path, 'r') as f: # , format="utf8"?
-<<<<<<< HEAD
 	card_json = json.load(f)
 
 final_dict = {}
@@ -36,6 +35,7 @@ for color in card_json:
 
 	for c in cards:
 		rules_tokens = tp.rules_tokenize(c)
+		rules_bigrams = tp.token_to_bigram(rules_tokens)
 
 		if rules_tokens == []:
 			insert_incr_dict(rules_freq_dict, '')
@@ -48,6 +48,8 @@ for color in card_json:
 
 		if 'flavorText' in c:
 			flavor_tokens = tp.flavor_tokenize(c)
+			flavor_bigrams = tp.token_to_bigram(flavor_tokens)
+
 			if flavor_tokens == []:
 				insert_incr_dict(flavor_freq_dict, '')
 				flavor_token_count += 1
