@@ -22,6 +22,7 @@ dest_path = sys.argv[2]
 
 print("reading from ", card_path)
 with open(card_path, 'r') as f: # , format="utf8"?
+<<<<<<< HEAD
 	card_json = json.load(f)
 
 final_dict = {}
@@ -74,7 +75,5 @@ for color in card_json:
 
 with open(dest_path, 'w') as f:
     json.dump(final_dict, f, ensure_ascii=False, sort_keys=True, indent=2)
-
-
 
 

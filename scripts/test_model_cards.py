@@ -16,6 +16,7 @@ def get_prob(token, model):
 	return log2(1 / (model['token_count'] + 1))
 
 
+
 model_path = sys.argv[1]
 card_path = sys.argv[2]
 
@@ -26,10 +27,6 @@ with open(model_path, 'r') as f: # , format="utf8"?
 print("reading cards from ", card_path)
 with open(card_path, 'r') as f: # , format="utf8"?
 	cards = json.load(f)
-
-
-
-
 
 for c in cards:
 	rules_tokens = tp.rules_tokenize(c)
@@ -45,7 +42,6 @@ for c in cards:
 			rules_prob += get_prob('', m['rules'])
 		for t in rules_tokens:
 			rules_prob += get_prob(t, m['rules'])
-
 
 		flavor_prob = log2(m['numCards'])
 
@@ -70,6 +66,3 @@ for c in cards:
 	for d in card_probs:
 		s = "{0} RP: {1:f} FP: {2:f} TP: {3:f}"
 		print(s.format(d['color'], d['rules_prob'], d['flavor_prob'], (d['rules_prob'] + d['flavor_prob'])))
-
-
-
