@@ -15,26 +15,26 @@ with open(card_path, 'r') as f: # , format="utf8"?
     
 allowed_types = ["Instant", "Sorcery"]
 allowed_colors = ["B", "W", "U", "G", "R"]
-color_long = {'R': 'Red', 'U': 'Blue', 'B': 'Black', 'W': 'White', 'G': 'Green'}
+# color_long = {'R': 'Red', 'U': 'Blue', 'B': 'Black', 'W': 'White', 'G': 'Green'}
 
 card_list = {
-    'Red': [],
-    'Black': [],
-    'Blue': [],
-    'White': [],
-    'Green': []
+    'W': [],
+    'U': [],
+    'B': [],
+    'R': [],
+    'G': []
 }
 
 for c in cards:
     if "common" not in c['rarity']:
         continue
-    if len(c['colors']) > 1 or c['colors'][0] not in allowed_colors:
+    if len(c['colors']) != 1 or c['colors'][0] not in allowed_colors:
         continue
     if c['type'] not in allowed_types:
         continue
         
     color = c['colors'][0]
-    card_list[color_long[color]].append(c)
+    card_list[color].append(c)
     
 
 with open(dest_path, 'w') as f:
