@@ -48,10 +48,21 @@ def flavor_tokenize(card):
 	return list(filter(f_slist_fun, split_pattern.split(new_flavor)))
 
 def token_to_bigram(tokens):
-	outlist = ['']*(len(tokens)-1)
-	for i in range(0, len(tokens)-1):
-		token1 = tokenlist[i]
-		token2 = tokenlist[i+1]
-		outlist[i] = token1 + ',' +  token2
+	return token_to_ngrams(tokens,2)
 
-	return outlist
+def token_to_ngrams(tokens, ngram_size):
+	# S & E are start and end tokens
+	new_tok = ['S'] + tokens + ['E']
+
+	# catch case of too small to prevent out of index errors
+	if len(new_tok) <= ngram_size:
+		ngram = ','.join(new_tok)
+		return ['(' + ngram + ')']
+
+	# allocate list for performance
+	outlist = ['']*(len(new_tok)-(ngram_size-1))
+
+	for i in range(0, len(new_tok)-(ngram_size-1)):
+		ngram = ','.join( new_tok[i:(i+ngram_size)] )
+		outlist[i] = '(' + ngram + ')'
+	return outlist	

@@ -1,0 +1,1926 @@
+{
+  "B": [
+    {
+      "artist": "Cole Eastburn",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "convertedManaCost": 1.0,
+      "edhrecRank": 3276,
+      "flavorText": "\"I will make your bones into a weapon that will lay even the mighty low.\"\n—Modriss of Zargoth Fen",
+      "foreignData": [
+        {
+          "flavorText": "„Ich mache deine Knochen zu einer Waffe, die selbst die Mächtigsten zu Fall bringt.\"\n—Modriss aus Zargoth Fen",
+          "language": "German",
+          "multiverseId": 467126,
+          "name": "Knochenspreißel",
+          "text": "Opfere eine Kreatur als zusätzliche Kosten, um diesen Zauberspruch zu wirken.\nZerstöre eine Kreatur deiner Wahl.",
+          "type": "Hexerei"
+        },
+        {
+          "flavorText": "\"Convertiré tus huesos en un arma capaz de derribar incluso a los más poderosos\".\n—Modriss del pantano Zargoth",
+          "language": "Spanish",
+          "multiverseId": 467406,
+          "name": "Astillas óseas",
+          "text": "Como coste adicional para lanzar este hechizo, sacrifica una criatura.\nDestruye la criatura objetivo.",
+          "type": "Conjuro"
+        },
+        {
+          "flavorText": "« Vos os me serviront à créer une arme qui terrassera même les puissants. »\n—Modriss de la maremme de Zargoth",
+          "language": "French",
+          "multiverseId": 467686,
+          "name": "Fragments d'os",
+          "text": "En tant que coût supplémentaire pour lancer ce sort, sacrifiez une créature.\nDétruisez la créature ciblée.",
+          "type": "Rituel"
+        },
+        {
+          "flavorText": "\"Trasformerò le tue ossa in un'arma che abbatterà anche i più potenti.\"\n—Modriss della palude di Zargoth",
+          "language": "Italian",
+          "multiverseId": 467966,
+          "name": "Schegge d'Osso",
+          "text": "Come costo addizionale per lanciare questa magia, sacrifica una creatura.\nDistruggi una creatura bersaglio.",
+          "type": "Stregoneria"
+        },
+        {
+          "flavorText": "「お前の骨も武器にするとしよう。並外れた者でさえも仕留める武器だ。」\n――ザルゴス湿原のモドリス",
+          "language": "Japanese",
+          "multiverseId": 468246,
+          "name": "骨の粉砕",
+          "text": "この呪文を唱えるための追加コストとして、クリーチャー１体を生け贄に捧げる。\nクリーチャー１体を対象とし、それを破壊する。",
+          "type": "ソーサリー"
+        },
+        {
+          "flavorText": "\"나는 네 뼈로 저 강대한 자들마저도 쓰러뜨릴 수 있는 무기를 만들 것이다.\"\n—자르고스 늪지의 모드리스",
+          "language": "Korean",
+          "multiverseId": 468526,
+          "name": "쪼개진 뼈 가시",
+          "text": "이 주문을 발동하기 위한 추가비용으로, 생물 한 개를 희생한다.\n생물을 목표로 정한다. 그 생물을 파괴한다.",
+          "type": "집중마법"
+        },
+        {
+          "flavorText": "\"Farei de seus ossos uma arma que derrubará até mesmo os poderosos.\"\n— Modriss do Charco de Zargoth",
+          "language": "Portuguese (Brazil)",
+          "multiverseId": 468806,
+          "name": "Estacas Ósseas",
+          "text": "Como custo adicional para conjurar esta mágica, sacrifique uma criatura.\nDestrua a criatura alvo.",
+          "type": "Feitiço"
+        },
+        {
+          "flavorText": "«Из твоих костей я сделаю оружие, которое свалит с ног даже самого могучего врага».\n— Модрисс с болота Заргот",
+          "language": "Russian",
+          "multiverseId": 469086,
+          "name": "Костные Осколки",
+          "text": "В качестве дополнительной стоимости разыгрывания этого заклинания пожертвуйте существо.\nУничтожьте целевое существо.",
+          "type": "Волшебство"
+        },
+        {
+          "flavorText": "「我会将你的骨头化作击倒强敌的武器。」\n～札戈斯沼的墨垂兹",
+          "language": "Chinese Simplified",
+          "multiverseId": 469366,
+          "name": "碎骨贯身",
+          "text": "牺牲一个生物，以作为施放此咒语的额外费用。\n消灭目标生物。",
+          "type": "法术"
+        },
+        {
+          "flavorText": "「我會將你的骨頭化作擊倒強敵的武器。」\n～札戈斯沼的墨垂茲",
+          "language": "Chinese Traditional",
+          "multiverseId": 469646,
+          "name": "碎骨貫身",
+          "text": "犧牲一個生物，以作為施放此咒語的額外費用。\n消滅目標生物。",
+          "type": "巫術"
+        }
+      ],
+      "frameVersion": "2015",
+      "hasFoil": true,
+      "hasNonFoil": true,
+      "isArena": true,
+      "isMtgo": true,
+      "isPaper": true,
+      "isReprint": true,
+      "layout": "normal",
+      "legalities": {
+        "brawl": "Legal",
+        "commander": "Legal",
+        "duel": "Legal",
+        "future": "Legal",
+        "historic": "Legal",
+        "legacy": "Legal",
+        "modern": "Legal",
+        "pauper": "Legal",
+        "penny": "Legal",
+        "pioneer": "Legal",
+        "standard": "Legal",
+        "vintage": "Legal"
+      },
+      "manaCost": "{B}",
+      "mcmId": 378636,
+      "mcmMetaId": 10148,
+      "mtgArenaId": 69877,
+      "mtgoId": 73083,
+      "multiverseId": 466846,
+      "name": "Bone Splinters",
+      "number": "92",
+      "originalText": "As an additional cost to cast this spell, sacrifice a creature.\nDestroy target creature.",
+      "originalType": "Sorcery",
+      "prices": {
+        "mtgo": {
+          "2020-02-18": 0.02
+        },
+        "mtgoFoil": {
+          "2020-02-18": 0.01
+        },
+        "paper": {
+          "2020-02-18": 0.04
+        },
+        "paperFoil": {
+          "2020-02-18": 0.1
+        }
+      },
+      "printings": [
+        "ALA",
+        "AVR",
+        "BFZ",
+        "DDN",
+        "GNT",
+        "M20",
+        "MB1",
+        "MM2",
+        "MM3"
+      ],
+      "purchaseUrls": {
+        "cardmarket": "https://mtgjson.com/links/7308fa7fd4b5f1d2",
+        "tcgplayer": "https://mtgjson.com/links/891cb123a8a10ce5"
+      },
+      "rarity": "common",
+      "rulings": [
+        {
+          "date": "2019-07-12",
+          "text": "You must sacrifice exactly one creature to cast this spell; you can’t cast it without sacrificing a creature, and you can’t sacrifice additional creatures."
+        },
+        {
+          "date": "2019-07-12",
+          "text": "Once you begin to cast Bone Splinters, no player may take actions until you’re done. Notably, opponents can’t try to remove the creature you wish to sacrifice."
+        }
+      ],
+      "scryfallId": "7e75a7e9-902a-4733-8cd4-767247174a4c",
+      "scryfallIllustrationId": "02d5db34-2f78-4b36-a489-8b4dbc5ee9e2",
+      "scryfallOracleId": "0c936582-d4c0-4da8-bc7e-49da5a433939",
+      "subtypes": [],
+      "supertypes": [],
+      "tcgplayerProductId": 192564,
+      "text": "As an additional cost to cast this spell, sacrifice a creature.\nDestroy target creature.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "uuid": "fb1e876d-3c99-5d88-abc1-65576aa9d839"
+    },
+    {
+      "artist": "Jason A. Engle",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "convertedManaCost": 4.0,
+      "edhrecRank": 14654,
+      "flavorText": "Imagine a thousand tiny mushrooms cropping up within your lungs.",
+      "foreignData": [
+        {
+          "flavorText": "Stelle dir vor, wie tausend winzige Pilze deine Lungen füllen.",
+          "language": "German",
+          "multiverseId": 447539,
+          "name": "Erstickende Sporen",
+          "text": "Eine Kreatur deiner Wahl erhält -3/-3 bis zum Ende des Zuges.",
+          "type": "Spontanzauber"
+        },
+        {
+          "flavorText": "Imagina miles de pequeños hongos creciéndote dentro de los pulmones.",
+          "language": "Spanish",
+          "multiverseId": 447820,
+          "name": "Esporas asfixiantes",
+          "text": "La criatura objetivo obtiene -3/-3 hasta el final del turno.",
+          "type": "Instantáneo"
+        },
+        {
+          "flavorText": "Imaginez un millier de champignons microscopiques s'installant dans vos poumons.",
+          "language": "French",
+          "multiverseId": 448101,
+          "name": "Spores étrangleuses",
+          "text": "La créature ciblée gagne -3/-3 jusqu'à la fin du tour.",
+          "type": "Éphémère"
+        },
+        {
+          "flavorText": "È come se nei tuoi polmoni spuntassero migliaia di minuscoli funghi.",
+          "language": "Italian",
+          "multiverseId": 448382,
+          "name": "Spore Soffocanti",
+          "text": "Una creatura bersaglio prende -3/-3 fino alla fine del turno.",
+          "type": "Istantaneo"
+        },
+        {
+          "flavorText": "千の小さなキノコが肺の中で育つのを想像してみろ。",
+          "language": "Japanese",
+          "multiverseId": 448663,
+          "name": "束縛の胞子",
+          "text": "クリーチャー１体を対象とする。ターン終了時まで、それは－３/－３の修整を受ける。",
+          "type": "インスタント"
+        },
+        {
+          "flavorText": "수천 개의 작은 버섯들이 당신의 폐를 가득 메우는 것을 상상해 봐라.",
+          "language": "Korean",
+          "multiverseId": 448944,
+          "name": "목을 죄는 포자",
+          "text": "생물을 목표로 정한다. 그 생물은 턴종료까지 -3/-3을 받는다.",
+          "type": "순간마법"
+        },
+        {
+          "flavorText": "Imagine milhares de pequenos cogumelos brotando dentro de seus pulmões.",
+          "language": "Portuguese (Brazil)",
+          "multiverseId": 449225,
+          "name": "Esporos Estrangulantes",
+          "text": "A criatura alvo recebe -3/-3 até o final do turno.",
+          "type": "Mágica Instantânea"
+        },
+        {
+          "flavorText": "Представь, как тысячи крохотных грибов прорастают в твоих легких.",
+          "language": "Russian",
+          "multiverseId": 449506,
+          "name": "Удушливые Споры",
+          "text": "Целевое существо получает -3/-3 до конца хода.",
+          "type": "Мгновенное заклинание"
+        },
+        {
+          "flavorText": "想象一下你的肺中冒出千朵蘑菇。",
+          "language": "Chinese Simplified",
+          "multiverseId": 449787,
+          "name": "窒息芽孢",
+          "text": "目标生物得-3/-3直到回合结束。",
+          "type": "瞬间"
+        },
+        {
+          "flavorText": "想像一下你的肺中冒出千朵蘑菇。",
+          "language": "Chinese Traditional",
+          "multiverseId": 450068,
+          "name": "窒息芽孢",
+          "text": "目標生物得-3/-3直到回合結束。",
+          "type": "瞬間"
+        }
+      ],
+      "frameVersion": "2015",
+      "hasFoil": true,
+      "hasNonFoil": true,
+      "isArena": true,
+      "isMtgo": true,
+      "isPaper": true,
+      "layout": "normal",
+      "legalities": {
+        "commander": "Legal",
+        "duel": "Legal",
+        "historic": "Legal",
+        "legacy": "Legal",
+        "modern": "Legal",
+        "pauper": "Legal",
+        "penny": "Legal",
+        "pioneer": "Legal",
+        "vintage": "Legal"
+      },
+      "manaCost": "{3}{B}",
+      "mcmId": 359613,
+      "mcmMetaId": 263108,
+      "mtgArenaId": 67924,
+      "mtgoId": 68405,
+      "multiverseId": 447258,
+      "name": "Strangling Spores",
+      "number": "122",
+      "originalText": "Target creature gets -3/-3 until end of turn.",
+      "originalType": "Instant",
+      "prices": {
+        "mtgo": {
+          "2020-02-18": 0.03
+        },
+        "mtgoFoil": {
+          "2020-02-18": 0.01
+        },
+        "paper": {
+          "2020-02-18": 0.02
+        },
+        "paperFoil": {
+          "2020-02-18": 0.09
+        }
+      },
+      "printings": [
+        "M19"
+      ],
+      "purchaseUrls": {
+        "cardmarket": "https://mtgjson.com/links/06859529d3fdee6e",
+        "tcgplayer": "https://mtgjson.com/links/a03898b1e8e269dd"
+      },
+      "rarity": "common",
+      "rulings": [],
+      "scryfallId": "300468ab-fbae-42ae-97bc-b08f795efa5c",
+      "scryfallIllustrationId": "deaf2d9a-87bc-44cb-b67a-58d33981e5b9",
+      "scryfallOracleId": "444493a6-0f90-4847-9619-4ea8fbf7cf6f",
+      "subtypes": [],
+      "supertypes": [],
+      "tcgplayerProductId": 168467,
+      "text": "Target creature gets -3/-3 until end of turn.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "uuid": "8d6c3777-635a-53b4-b68d-5ac84b9c0a12"
+    },
+    {
+      "artist": "Seb McKinnon",
+      "borderColor": "black",
+      "colorIdentity": [
+        "B"
+      ],
+      "colors": [
+        "B"
+      ],
+      "convertedManaCost": 3.0,
+      "edhrecRank": 7005,
+      "flavorText": "Many an inventor has collapsed under the pressure to create a flawless design.",
+      "foreignData": [
+        {
+          "flavorText": "So manche Erfinder scheitern an dem Druck, ein makelloses Konstrukt zu entwerfen.",
+          "language": "German",
+          "multiverseId": 467142,
+          "name": "Gedankenzersetzung",
+          "text": "Ein Spieler deiner Wahl wirft zwei Karten ab.",
+          "type": "Hexerei"
+        },
+        {
+          "flavorText": "Más de un inventor se ha venido abajo por la presión de crear el diseño perfecto.",
+          "language": "Spanish",
+          "multiverseId": 467422,
+          "name": "Podredumbre mental",
+          "text": "El jugador objetivo descarta dos cartas.",
+          "type": "Conjuro"
+        },
+        {
+          "flavorText": "Plus d'un inventeur s'est fourvoyé dans la quête de la conception parfaite.",
+          "language": "French",
+          "multiverseId": 467702,
+          "name": "Pourrissement cérébral",
+          "text": "Le joueur ciblé se défausse de deux cartes.",
+          "type": "Rituel"
+        },
+        {
+          "flavorText": "Più di un inventore è stato schiacciato dall'ossessione di creare il progetto perfetto.",
+          "language": "Italian",
+          "multiverseId": 467982,
+          "name": "Cancrena della Mente",
+          "text": "Un giocatore bersaglio scarta due carte.",
+          "type": "Stregoneria"
+        },
+        {
+          "flavorText": "完璧な設計を生み出すという重圧に潰された発明者は数知れない。",
+          "language": "Japanese",
+          "multiverseId": 468262,
+          "name": "精神腐敗",
+          "text": "プレイヤー１人を対象とする。そのプレイヤーはカード２枚を捨てる。",
+          "type": "ソーサリー"
+        },
+        {
+          "flavorText": "많은 발명가들이 완벽한 디자인을 만들려는 스트레스에 못 이겨 쓰러진다.",
+          "language": "Korean",
+          "multiverseId": 468542,
+          "name": "정신 부패",
+          "text": "플레이어를 목표로 정한다. 그 플레이어는 카드 두 장을 버린다.",
+          "type": "집중마법"
+        },
+        {
+          "flavorText": "Muitos inventores entraram em colapso ante à pressão de criar um projeto impecável.",
+          "language": "Portuguese (Brazil)",
+          "multiverseId": 468822,
+          "name": "Estiolar a Mente",
+          "text": "O jogador alvo descarta dois cards.",
+          "type": "Feitiço"
+        },
+        {
+          "flavorText": "Многих изобретателей подкосило стремление создать безупречное произведение.",
+          "language": "Russian",
+          "multiverseId": 469102,
+          "name": "Гниение Разума",
+          "text": "Целевой игрок сбрасывает две карты.",
+          "type": "Волшебство"
+        },
+        {
+          "flavorText": "许多发明家因创造无瑕设计的压力而崩溃。",
+          "language": "Chinese Simplified",
+          "multiverseId": 469382,
+          "name": "心之衰",
+          "text": "目标牌手弃两张牌。",
+          "type": "法术"
+        },
+        {
+          "flavorText": "許多發明家因創造無瑕設計的壓力而崩潰。",
+          "language": "Chinese Traditional",
+          "multiverseId": 469662,
+          "name": "心之衰",
+          "text": "目標玩家棄兩張牌。",
+          "type": "巫術"
+        }
+      ],
+      "frameVersion": "2015",
+      "hasFoil": true,
+      "hasNonFoil": true,
+      "isArena": true,
+      "isMtgo": true,
+      "isPaper": true,
+      "isReprint": true,
+      "layout": "normal",
+      "legalities": {
+        "brawl": "Legal",
+        "commander": "Legal",
+        "duel": "Legal",
+        "future": "Legal",
+        "historic": "Legal",
+        "legacy": "Legal",
+        "modern": "Legal",
+        "pauper": "Legal",
+        "penny": "Legal",
+        "pioneer": "Legal",
+        "standard": "Legal",
+        "vintage": "Legal"
+      },
+      "manaCost": "{2}{B}",
+      "mcmId": 379479,
+      "mcmMetaId": 3598,
+      "mtgArenaId": 69893,
+      "mtgoId": 73115,
+      "multiverseId": 466862,
+      "name": "Mind Rot",
+      "number": "108",
+      "originalText": "Target player discards two cards.",
+      "originalType": "Sorcery",
+      "prices": {
+        "mtgo": {
+          "2020-02-18": 0.02
+        },
+        "mtgoFoil": {
+          "2020-02-18": 0.01
+        },
+        "paper": {
+          "2020-02-18": 0.03
+        },
+        "paperFoil": {
+          "2020-02-18": 0.1
+        }
+      },
+      "printings": [
+        "10E",
+        "7ED",
+        "8ED",
+        "9ED",
+        "DPA",
+        "DTK",
+        "KLD",
+        "M10",
+        "M11",
+        "M12",
+        "M13",
+        "M14",
+        "M15",
+        "M19",
+        "M20",
+        "MB1",
+        "ORI",
+        "P02",
+        "POR",
+        "PS11",
+        "RTR",
+        "S99",
+        "W16"
+      ],
+      "purchaseUrls": {
+        "cardmarket": "https://mtgjson.com/links/39f16a2e06267473",
+        "tcgplayer": "https://mtgjson.com/links/c7dfcf4699682764"
+      },
+      "rarity": "common",
+      "rulings": [],
+      "scryfallId": "b9de3feb-5f92-43eb-b5cf-00d2b511fe68",
+      "scryfallIllustrationId": "4fc53a41-0bd7-4055-b6c1-7ff69175da71",
+      "scryfallOracleId": "ad44cf74-b717-48fb-9fa2-77512024d76a",
+      "subtypes": [],
+      "supertypes": [],
+      "tcgplayerProductId": 192884,
+      "text": "Target player discards two cards.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "uuid": "ff22c101-db84-57ef-8b3a-e6fcb06fe6b0"
+    }
+  ],
+  "G": [
+    {
+      "artist": "Daniel Ljunggren",
+      "borderColor": "black",
+      "colorIdentity": [
+        "G"
+      ],
+      "colors": [
+        "G"
+      ],
+      "convertedManaCost": 2.0,
+      "edhrecRank": 766,
+      "flavorText": "\"And if you threaten me again, your shiny steel trousers will be sprouting daggerthorn vines.\"\n—Iveta, rooftop runner",
+      "foreignData": [
+        {
+          "flavorText": "„Und falls du mir noch einmal drohst, werden aus deinen glänzenden Stahlhosen Dolchdornranken sprießen.\"\n—Iveta, Dach-Läuferin",
+          "language": "German",
+          "multiverseId": 447607,
+          "name": "Naturalisieren",
+          "text": "Zerstöre ein Artefakt oder eine Verzauberung deiner Wahl.",
+          "type": "Spontanzauber"
+        },
+        {
+          "flavorText": "\"Y si vuelves a amenazarme, brotarán hiedras dagaespina de tus brillantes pantalones metálicos\".\n—Iveta, corredora de los tejados",
+          "language": "Spanish",
+          "multiverseId": 447888,
+          "name": "Naturalizar",
+          "text": "Destruye el artefacto o encantamiento objetivo.",
+          "type": "Instantáneo"
+        },
+        {
+          "flavorText": "« Une menace de plus, et vos jambières en acier rutilant se couvriront de ronces daguépine. »\n—Iveta, coureuse des toits",
+          "language": "French",
+          "multiverseId": 448169,
+          "name": "Naturalisation",
+          "text": "Détruisez l'artefact ciblé ou l'enchantement ciblé.",
+          "type": "Éphémère"
+        },
+        {
+          "flavorText": "\"E se mi minacci un'altra volta, nei tuoi lucenti pantaloni di acciaio spunterà un cespuglio di rovi.\"\n—Iveta, velocista dei tetti",
+          "language": "Italian",
+          "multiverseId": 448450,
+          "name": "Ritorno alla Natura",
+          "text": "Distruggi un artefatto o un incantesimo bersaglio.",
+          "type": "Istantaneo"
+        },
+        {
+          "flavorText": "「今度あたしを脅したら、ピカピカの鋼のズボンから剣茨の蔦が這い出てくるからね。」\n――屋上の走り手、イヴェータ",
+          "language": "Japanese",
+          "multiverseId": 448731,
+          "name": "帰化",
+          "text": "アーティファクト１つかエンチャント１つを対象とし、それを破壊する。",
+          "type": "インスタント"
+        },
+        {
+          "flavorText": "\"날 한 번만 더 위협하면 네 반짝이는 강철 바지에서 비수가시 넝쿨이 자라나게 하겠어.\"\n—옥상 주자, 이베타",
+          "language": "Korean",
+          "multiverseId": 449012,
+          "name": "자연화",
+          "text": "마법물체나 부여마법을 목표로 정한다. 그 목표를 파괴한다.",
+          "type": "순간마법"
+        },
+        {
+          "flavorText": "\"E se vocês me ameaçarem de novo, vão nascer vinhas espinho-de-adaga nessas suas calças de aço reluzente.\"\n— Iveta, corredora de telhados",
+          "language": "Portuguese (Brazil)",
+          "multiverseId": 449293,
+          "name": "Naturalizar",
+          "text": "Destrua o artefato ou encantamento alvo.",
+          "type": "Mágica Instantânea"
+        },
+        {
+          "flavorText": "«Еще одна угроза — и твои блестящие доспехи насквозь прорастут колючим терновником».\n— Ивета, бегущая по крышам",
+          "language": "Russian",
+          "multiverseId": 449574,
+          "name": "Приживание",
+          "text": "Уничтожьте целевой артефакт или чары.",
+          "type": "Мгновенное заклинание"
+        },
+        {
+          "flavorText": "「如果你胆敢再威胁我，我就让你那闪闪发亮的铁裤子长出锋利荆棘。」\n～屋顶奔越者依薇塔",
+          "language": "Chinese Simplified",
+          "multiverseId": 449855,
+          "name": "回归自然",
+          "text": "消灭目标神器或结界。",
+          "type": "瞬间"
+        },
+        {
+          "flavorText": "「如果你膽敢再威脅我，我就讓你那閃閃發亮的鐵褲子長出鋒利荊棘。」\n～屋頂奔越者依薇塔",
+          "language": "Chinese Traditional",
+          "multiverseId": 450136,
+          "name": "回歸自然",
+          "text": "消滅目標神器或結界。",
+          "type": "瞬間"
+        }
+      ],
+      "frameVersion": "2015",
+      "hasFoil": true,
+      "hasNonFoil": true,
+      "isArena": true,
+      "isMtgo": true,
+      "isPaper": true,
+      "isReprint": true,
+      "layout": "normal",
+      "legalities": {
+        "commander": "Legal",
+        "duel": "Legal",
+        "historic": "Legal",
+        "legacy": "Legal",
+        "modern": "Legal",
+        "pauper": "Legal",
+        "penny": "Legal",
+        "pioneer": "Legal",
+        "vintage": "Legal"
+      },
+      "manaCost": "{1}{G}",
+      "mcmId": 360277,
+      "mcmMetaId": 3838,
+      "mtgArenaId": 68060,
+      "mtgoId": 68541,
+      "multiverseId": 447326,
+      "name": "Naturalize",
+      "number": "190",
+      "originalText": "Destroy target artifact or enchantment.",
+      "originalType": "Instant",
+      "prices": {
+        "mtgo": {
+          "2020-02-18": 0.04
+        },
+        "mtgoFoil": {
+          "2020-02-18": 0.02
+        },
+        "paper": {
+          "2020-02-18": 0.09
+        },
+        "paperFoil": {
+          "2020-02-18": 0.22
+        }
+      },
+      "printings": [
+        "10E",
+        "8ED",
+        "9ED",
+        "ALA",
+        "DDU",
+        "DPA",
+        "DTK",
+        "GTC",
+        "ISD",
+        "KTK",
+        "M10",
+        "M11",
+        "M12",
+        "M13",
+        "M14",
+        "M15",
+        "M19",
+        "MB1",
+        "ONS",
+        "PS11",
+        "PSAL",
+        "RIX",
+        "ROE"
+      ],
+      "purchaseUrls": {
+        "cardmarket": "https://mtgjson.com/links/faf1dc8d025818d7",
+        "tcgplayer": "https://mtgjson.com/links/1dad719b1822c2ac"
+      },
+      "rarity": "common",
+      "rulings": [],
+      "scryfallId": "390c40ba-2464-44ae-8d67-93c72ab3c425",
+      "scryfallIllustrationId": "ed72ff3e-3d59-4dbd-a2c5-00eb8e8f9a12",
+      "scryfallOracleId": "bdb3ca68-ec1f-4e16-81cc-d23f8f52c728",
+      "subtypes": [],
+      "supertypes": [],
+      "tcgplayerProductId": 169340,
+      "text": "Destroy target artifact or enchantment.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "uuid": "4618651a-3fa4-5570-af1b-7a7f308a1904"
+    }
+  ],
+  "R": [
+    {
+      "artist": "Volkan Baǵa",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "convertedManaCost": 2.0,
+      "edhrecRank": 566,
+      "flavorText": "\"Unwelcome thoughts crowd my mind. Are they my own madness, or the whispers of another?\" —Sarkhan Vol",
+      "foreignData": [
+        {
+          "flavorText": "„Unwillkommene Gedanken drängen sich in meinem Kopf. Sind das die Ausgeburten meines eigenen Wahns oder das Flüstern eines Anderen?\"\n—Sarkhan Vol",
+          "language": "German",
+          "multiverseId": 447581,
+          "name": "Quälende Stimme",
+          "text": "Wirf als zusätzliche Kosten, um diesen Zauberspruch zu wirken, eine Karte ab.\nZiehe zwei Karten.",
+          "type": "Hexerei"
+        },
+        {
+          "flavorText": "\"En mi mente se agolpan pensamientos no deseados. ¿Son fruto de mi propia locura, o solo son los susurros de la de otro?\".\n—Sarkhan Vol",
+          "language": "Spanish",
+          "multiverseId": 447862,
+          "name": "Voz del tormento",
+          "text": "Como coste adicional para lanzar este hechizo, descarta una carta.\nRoba dos cartas.",
+          "type": "Conjuro"
+        },
+        {
+          "flavorText": "« Des pensées inopportunes m'emplissent l'esprit. Sont-elles le reflet de ma propre folie, ou les murmures d'une autre ? »\n—Sarkhan Vol",
+          "language": "French",
+          "multiverseId": 448143,
+          "name": "Voix lancinante",
+          "text": "En tant que coût supplémentaire pour lancer ce sort, défaussez-vous d'une carte.\nPiochez deux cartes.",
+          "type": "Rituel"
+        },
+        {
+          "flavorText": "\"Pensieri molesti affollano la mia mente. Sono il frutto della mia stessa follia o i sussurri di un estraneo?\"\n—Sarkhan Vol",
+          "language": "Italian",
+          "multiverseId": 448424,
+          "name": "Voce Torturante",
+          "text": "Come costo addizionale per lanciare questa magia, scarta una carta.\nPesca due carte.",
+          "type": "Stregoneria"
+        },
+        {
+          "flavorText": "「不愉快な思考が私の精神を圧迫する。これは私の狂気によるものなのか、それとも誰か別の者の囁きなのか？」\n――サルカン・ヴォル",
+          "language": "Japanese",
+          "multiverseId": 448705,
+          "name": "苦しめる声",
+          "text": "この呪文を唱えるための追加コストとして、カード１枚を捨てる。\nカードを２枚引く。",
+          "type": "ソーサリー"
+        },
+        {
+          "flavorText": "\"달갑지 않은 생각들이 내 정신을 가득 채운다. 나 자신의 광기인가, 아니면 다른 누군가의 속삭임인가?\"\n—사르칸 볼",
+          "language": "Korean",
+          "multiverseId": 448986,
+          "name": "괴롭히는 목소리",
+          "text": "이 주문을 발동하기 위한 추가비용으로, 카드 한 장을 버린다.\n카드 두 장을 뽑는다.",
+          "type": "집중마법"
+        },
+        {
+          "flavorText": "\"Pensamentos indesejados enchem a minha mente. Será que são a minha própria loucura ou os sussurros de outro?\"\n— Sarkhan Vol",
+          "language": "Portuguese (Brazil)",
+          "multiverseId": 449267,
+          "name": "Voz Atormentadora",
+          "text": "Como custo adicional para conjurar esta mágica, descarte um card.\nCompre dois cards.",
+          "type": "Feitiço"
+        },
+        {
+          "flavorText": "«Мысли, которых я не ждал, заполняют мою голову. Что это — мое собственное безумие или шепот чужих голосов?»\n— Сархан Воль",
+          "language": "Russian",
+          "multiverseId": 449548,
+          "name": "Мучающий Голос",
+          "text": "В качестве дополнительной стоимости разыгрывания этого заклинания сбросьте карту.\nВозьмите две карты.",
+          "type": "Волшебство"
+        },
+        {
+          "flavorText": "「讨厌的想法在我脑海中挥之不去。这是我自己的疯狂，还是他者的细语？」\n～萨坎沃",
+          "language": "Chinese Simplified",
+          "multiverseId": 449829,
+          "name": "折磨幽声",
+          "text": "弃一张牌，以作为施放此咒语的额外费用。\n抓两张牌。",
+          "type": "法术"
+        },
+        {
+          "flavorText": "「討厭的想法在我腦海中揮之不去。這是我自己的瘋狂，還是他者的細語？」\n～薩坎沃",
+          "language": "Chinese Traditional",
+          "multiverseId": 450110,
+          "name": "折磨幽聲",
+          "text": "棄一張牌，以作為施放此咒語的額外費用。\n抽兩張牌。",
+          "type": "巫術"
+        }
+      ],
+      "frameVersion": "2015",
+      "hasFoil": true,
+      "hasNonFoil": true,
+      "isArena": true,
+      "isMtgo": true,
+      "isPaper": true,
+      "isReprint": true,
+      "layout": "normal",
+      "legalities": {
+        "commander": "Legal",
+        "duel": "Legal",
+        "historic": "Legal",
+        "legacy": "Legal",
+        "modern": "Legal",
+        "pauper": "Legal",
+        "penny": "Legal",
+        "pioneer": "Legal",
+        "vintage": "Legal"
+      },
+      "manaCost": "{1}{R}",
+      "mcmId": 360282,
+      "mcmMetaId": 210375,
+      "mtgArenaId": 68008,
+      "mtgoId": 68489,
+      "multiverseId": 447300,
+      "name": "Tormenting Voice",
+      "number": "164",
+      "originalText": "As an additional cost to cast this spell, discard a card.\nDraw two cards.",
+      "originalType": "Sorcery",
+      "prices": {
+        "mtgo": {
+          "2020-02-18": 0.04
+        },
+        "mtgoFoil": {
+          "2020-02-18": 0.02
+        },
+        "paper": {
+          "2020-02-18": 0.08
+        },
+        "paperFoil": {
+          "2020-02-18": 0.23
+        }
+      },
+      "printings": [
+        "AKH",
+        "CN2",
+        "DTK",
+        "GNT",
+        "IMA",
+        "KTK",
+        "M19",
+        "SOI"
+      ],
+      "purchaseUrls": {
+        "cardmarket": "https://mtgjson.com/links/79a156377c970fb7",
+        "tcgplayer": "https://mtgjson.com/links/0dee9653e79c7203"
+      },
+      "rarity": "common",
+      "rulings": [
+        {
+          "date": "2018-07-13",
+          "text": "You must discard exactly one card to cast Tormenting Voice; you can’t cast it without discarding a card, and you can’t discard additional cards."
+        }
+      ],
+      "scryfallId": "48dbbc83-5549-480f-bf98-da90495d2a29",
+      "scryfallIllustrationId": "0a970345-fb0b-4903-b505-5f6b8ca4ff9f",
+      "scryfallOracleId": "f307b5b4-e949-4f69-8dc7-856e33a45a16",
+      "subtypes": [],
+      "supertypes": [],
+      "tcgplayerProductId": 166716,
+      "text": "As an additional cost to cast this spell, discard a card.\nDraw two cards.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "uuid": "0f55757a-225e-597f-bb1c-c38d5e323388"
+    },
+    {
+      "artist": "Suzanne Helmigh",
+      "borderColor": "black",
+      "colorIdentity": [
+        "R"
+      ],
+      "colors": [
+        "R"
+      ],
+      "convertedManaCost": 4.0,
+      "edhrecRank": 8304,
+      "flavorText": "As the Cabal legions pushed into Shiv, they learned not to stand so close together.",
+      "foreignData": [
+        {
+          "flavorText": "Als die Legionen der Kabbalisten nach Shiv vordrangen, lernten sie auf die schmerzhafte Art, nicht zu dicht zusammenzustehen.",
+          "language": "German",
+          "multiverseId": 450294,
+          "name": "Sprühender Blitz",
+          "text": "Der Sprühende Blitz fügt einem Spieler deiner Wahl 3 Schadenspunkte und jeder Kreatur, die er kontrolliert, 1 Schadenspunkt zu.",
+          "type": "Spontanzauber"
+        },
+        {
+          "flavorText": "A medida que las legiones de la Cábala avanzaron por Shiv, aprendieron a no ponerse tan cerca unos de otros.",
+          "language": "Spanish",
+          "multiverseId": 450328,
+          "name": "Rayo propagado",
+          "text": "El Rayo propagado hace 3 puntos de daño al jugador objetivo y 1 punto de daño a cada criatura que controla ese jugador.",
+          "type": "Instantáneo"
+        },
+        {
+          "flavorText": "Tandis que les légions de la Coterie s'enfonçaient dans Shiv, les soldats apprirent à s'écarter les uns des autres.",
+          "language": "French",
+          "multiverseId": 450362,
+          "name": "Foudre irradiante",
+          "text": "La Foudre irradiante inflige 3 blessures au joueur ciblé et 1 blessure à chaque créature que ce joueur contrôle.",
+          "type": "Éphémère"
+        },
+        {
+          "flavorText": "Addentrandosi nella regione di Shiv, i legionari della Cabala impararono a non marciare troppo compatti.",
+          "language": "Italian",
+          "multiverseId": 450396,
+          "name": "Fulmine a Dispersione",
+          "text": "Il Fulmine a Dispersione infligge 3 danni a un giocatore bersaglio e 1 danno a ogni creatura controllata da quel giocatore.",
+          "type": "Istantaneo"
+        },
+        {
+          "flavorText": "シヴに入り込んだ陰謀団の軍団は、互いに近寄り過ぎるとまずいことを知った。",
+          "language": "Japanese",
+          "multiverseId": 450430,
+          "name": "放射稲妻",
+          "text": "プレイヤー１人を対象とする。放射稲妻はそのプレイヤーに３点と、そのプレイヤーがコントロールしている各クリーチャーにそれぞれ１点のダメージを与える。",
+          "type": "インスタント"
+        },
+        {
+          "flavorText": "도당의 군단이 시브까지 밀어닥쳤을 때, 그들은 서로 너무 가깝게 서 있어서는 안 된다는 것을 깨닫게 되었다.",
+          "language": "Korean",
+          "multiverseId": 450464,
+          "name": "빛나는 번개",
+          "text": "플레이어를 목표로 정한다. 빛나는 번개는 그 플레이어에게 피해 3점을 입히고 그 플레이어가 조종하는 각 생물에게 피해 1점을 입힌다.",
+          "type": "순간마법"
+        },
+        {
+          "flavorText": "Conforme as legiões da Cabala avançavam em Shiv, aprendiam a não usar formações tão compactas.",
+          "language": "Portuguese (Brazil)",
+          "multiverseId": 450498,
+          "name": "Relâmpago Irradiante",
+          "text": "Relâmpago Irradiante causa 3 pontos de dano ao jogador alvo e 1 ponto de dano a cada criatura que aquele jogador controla.",
+          "type": "Mágica Instantânea"
+        },
+        {
+          "flavorText": "Когда легионы Кабала вторглись в Шив, солдаты быстро научились не стоять слишком близко друг к другу.",
+          "language": "Russian",
+          "multiverseId": 450532,
+          "name": "Лучистая Молния",
+          "text": "Лучистая Молния наносит 3 повреждения целевому игроку и 1 повреждение каждому существу под контролем того игрока.",
+          "type": "Мгновенное заклинание"
+        },
+        {
+          "flavorText": "柯帮的万马千军一踏足西瓦，就学会了彼此不能靠太近。",
+          "language": "Chinese Simplified",
+          "multiverseId": 450566,
+          "name": "放射闪电",
+          "text": "放射闪电对目标牌手造成3点伤害，且对每个由该牌手操控的生物各造成1点伤害。",
+          "type": "瞬间"
+        },
+        {
+          "flavorText": "柯幫的萬馬千軍一踏足西瓦，就學會了彼此不能靠太近。",
+          "language": "Chinese Traditional",
+          "multiverseId": 450600,
+          "name": "放射閃電",
+          "text": "放射閃電對目標玩家造成3點傷害，且對每個由該玩家操控的生物各造成1點傷害。",
+          "type": "瞬間"
+        }
+      ],
+      "frameVersion": "2015",
+      "hasFoil": false,
+      "hasNonFoil": true,
+      "isArena": true,
+      "isMtgo": true,
+      "isPaper": true,
+      "isReprint": true,
+      "isStarter": true,
+      "layout": "normal",
+      "legalities": {
+        "commander": "Legal",
+        "duel": "Legal",
+        "historic": "Legal",
+        "legacy": "Legal",
+        "modern": "Legal",
+        "pauper": "Legal",
+        "penny": "Legal",
+        "pioneer": "Legal",
+        "vintage": "Legal"
+      },
+      "manaCost": "{3}{R}",
+      "mcmId": 359653,
+      "mcmMetaId": 239470,
+      "mtgArenaId": 68308,
+      "mtgoId": 68159,
+      "multiverseId": 450260,
+      "name": "Radiating Lightning",
+      "number": "313",
+      "originalText": "Radiating Lightning deals 3 damage to target player and 1 damage to each creature that player controls.",
+      "originalType": "Instant",
+      "prices": {
+        "mtgo": {
+          "2020-02-18": 1.5
+        },
+        "mtgoFoil": {
+          "2020-02-18": 0.02
+        },
+        "paper": {
+          "2020-02-18": 0.54
+        },
+        "paperFoil": {}
+      },
+      "printings": [
+        "DOM",
+        "M19"
+      ],
+      "purchaseUrls": {
+        "cardmarket": "https://mtgjson.com/links/af5d783842a2aa9d",
+        "tcgplayer": "https://mtgjson.com/links/8aa3af33b1cc8c26"
+      },
+      "rarity": "common",
+      "rulings": [
+        {
+          "date": "2018-04-27",
+          "text": "Radiating Lightning targets only the player. Creatures that player controls with hexproof will be dealt damage."
+        }
+      ],
+      "scryfallId": "9395fce4-11bf-4934-8323-5be4862c9779",
+      "scryfallIllustrationId": "d4f8eb58-e7ad-4134-8b11-e76ad2602985",
+      "scryfallOracleId": "9794f397-dd86-4cfe-a431-5f8d8c6b68ea",
+      "subtypes": [],
+      "supertypes": [],
+      "tcgplayerProductId": 168645,
+      "text": "Radiating Lightning deals 3 damage to target player and 1 damage to each creature that player controls.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "uuid": "ac0d2f62-3d04-5dcd-b78d-8f880d316fb1"
+    }
+  ],
+  "U": [
+    {
+      "artist": "Matt Stewart",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "convertedManaCost": 3.0,
+      "edhrecRank": 2336,
+      "flavorText": "\"Half of your studies will be learning the laws of magic. The other half will be bending them.\" —Naru Meha, master wizard",
+      "foreignData": [
+        {
+          "flavorText": "„In der ersten Hälfte deiner Ausbildung studierst du die Gesetze der Magie. In der zweiten Hälfte lernst du, sie in deinem Sinne zu interpretieren.\" —Naru Meha, die Meisterzauberin",
+          "language": "German",
+          "multiverseId": 443209,
+          "name": "Weissagung",
+          "text": "Ziehe zwei Karten.",
+          "type": "Hexerei"
+        },
+        {
+          "flavorText": "\"Dedicarás la mitad de tu tiempo de estudio a aprender las reglas de la magia y la otra mitad a descubrir cómo manipularlas\". —Naru Meha, maga experta",
+          "language": "Spanish",
+          "multiverseId": 443478,
+          "name": "Adivinación",
+          "text": "Roba dos cartas.",
+          "type": "Conjuro"
+        },
+        {
+          "flavorText": "« La moitié de vos études consistera à apprendre les lois de la magie. L'autre moitié consistera à les faire plier. » —Naru Meha, maître sorcier",
+          "language": "French",
+          "multiverseId": 443747,
+          "name": "Divination",
+          "text": "Piochez deux cartes.",
+          "type": "Rituel"
+        },
+        {
+          "flavorText": "\"Metà dei vostri studi consisterà nell'apprendere le leggi della magia. L'altra metà nel piegarle.\" —Naru Meha, maga insegnante",
+          "language": "Italian",
+          "multiverseId": 444016,
+          "name": "Divinazione",
+          "text": "Pesca due carte.",
+          "type": "Stregoneria"
+        },
+        {
+          "flavorText": "「諸君の勉学の半分は魔法の法則を学ぶことに充てられる。残りの半分でそれを捻じ曲げることを学ぶ。」 ――練達の魔術師、ナル・メハ",
+          "language": "Japanese",
+          "multiverseId": 444285,
+          "name": "予言",
+          "text": "カードを２枚引く。",
+          "type": "ソーサリー"
+        },
+        {
+          "flavorText": "\"그대의 연구 중 절반은 마법의 법칙을 이해하는 것일세. 그리고 나머지 절반은 그것을 다루는 법을 배우는 것이지.\" —대마법사, 나루 메하",
+          "language": "Korean",
+          "multiverseId": 444554,
+          "name": "점",
+          "text": "카드 두 장을 뽑는다.",
+          "type": "집중마법"
+        },
+        {
+          "flavorText": "\"Metade de seus estudos será aprender as leis da magia. A outra metade será como dobrá-las.\" — Naru Meha, maga mestra",
+          "language": "Portuguese (Brazil)",
+          "multiverseId": 444823,
+          "name": "Divinação",
+          "text": "Compre dois cards.",
+          "type": "Feitiço"
+        },
+        {
+          "flavorText": "«Первая половина учебы — познание законов магии. Вторая половина — их нарушение». — Нару Меха, верховная волшебница",
+          "language": "Russian",
+          "multiverseId": 445092,
+          "name": "Прорицание",
+          "text": "Возьмите две карты.",
+          "type": "Волшебство"
+        },
+        {
+          "flavorText": "「你一半的时间会用来学习法术定律。另一半则会用来扭曲它们。」 ～魔法大师娜鲁梅哈",
+          "language": "Chinese Simplified",
+          "multiverseId": 445361,
+          "name": "卜卦",
+          "text": "抓两张牌。",
+          "type": "法术"
+        },
+        {
+          "flavorText": "「你一半的時間會用來學習魔法定律。另一半則會用來扭曲它們。」 ～魔法大師娜魯梅哈",
+          "language": "Chinese Traditional",
+          "multiverseId": 445630,
+          "name": "卜卦",
+          "text": "抽兩張牌。",
+          "type": "巫術"
+        }
+      ],
+      "frameVersion": "2015",
+      "hasFoil": true,
+      "hasNonFoil": true,
+      "isArena": true,
+      "isMtgo": true,
+      "isPaper": true,
+      "isReprint": true,
+      "layout": "normal",
+      "legalities": {
+        "commander": "Legal",
+        "duel": "Legal",
+        "historic": "Legal",
+        "legacy": "Legal",
+        "modern": "Legal",
+        "pauper": "Legal",
+        "penny": "Legal",
+        "pioneer": "Legal",
+        "vintage": "Legal"
+      },
+      "manaCost": "{2}{U}",
+      "mcmId": 355295,
+      "mcmMetaId": 10594,
+      "mtgArenaId": 67208,
+      "mtgoId": 67569,
+      "multiverseId": 442940,
+      "name": "Divination",
+      "number": "52",
+      "originalText": "Draw two cards.",
+      "originalType": "Sorcery",
+      "prices": {
+        "mtgo": {
+          "2020-03-09": 0.03
+        },
+        "mtgoFoil": {
+          "2020-03-09": 0.01
+        },
+        "paper": {
+          "2020-03-08": 0.05
+        },
+        "paperFoil": {
+          "2020-03-08": 0.18
+        }
+      },
+      "printings": [
+        "ANA",
+        "BNG",
+        "CN2",
+        "DKA",
+        "DOM",
+        "M10",
+        "M12",
+        "M13",
+        "M14",
+        "M15",
+        "M19",
+        "MB1",
+        "PS11"
+      ],
+      "purchaseUrls": {
+        "cardmarket": "https://mtgjson.com/links/b4bafc8c1cee77cb",
+        "tcgplayer": "https://mtgjson.com/links/b617106c8223ac32"
+      },
+      "rarity": "common",
+      "rulings": [],
+      "scryfallId": "c7f9daf0-dbfd-45b2-be35-9c2de9d1a56e",
+      "scryfallIllustrationId": "07abd436-ce6f-4d60-bb69-1150f8ff3ccc",
+      "scryfallOracleId": "273b339c-964b-4a18-8eb5-ceb8abcdfd9e",
+      "subtypes": [],
+      "supertypes": [],
+      "tcgplayerProductId": 164484,
+      "text": "Draw two cards.",
+      "type": "Sorcery",
+      "types": [
+        "Sorcery"
+      ],
+      "uuid": "18a2ec72-16a8-5325-a993-cf60babb40ff"
+    },
+    {
+      "artist": "Josh Hass",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "convertedManaCost": 2.0,
+      "edhrecRank": 1878,
+      "flavorText": "Dependence on luck is anathema to Kefnet's rigorous studies. Those who hope to escape his maze by chance never succeed.",
+      "foreignData": [
+        {
+          "flavorText": "Einfach auf Glück zu setzen, wäre eine Beleidigung von Kefnets Intellekt. Wer ihm entkommen will, muss seinen Verstand benutzen.",
+          "language": "German",
+          "multiverseId": 447471,
+          "name": "Essenzzerstäubung",
+          "text": "Neutralisiere einen Kreaturenzauber deiner Wahl.",
+          "type": "Spontanzauber"
+        },
+        {
+          "flavorText": "Depender del azar es un ultraje a los rigurosos estudios de Kefnet. Quienes tengan la esperanza de escapar por suerte de su laberinto jamás lo lograrán.",
+          "language": "Spanish",
+          "multiverseId": 447752,
+          "name": "Esparcir la esencia",
+          "text": "Contrarresta el hechizo de criatura objetivo.",
+          "type": "Instantáneo"
+        },
+        {
+          "flavorText": "Compter sur la chance est contraire à la rigueur des études de Kefnet. Ceux qui espèrent qu'elle leur permettra de sortir de son labyrinthe n'y parviennent jamais.",
+          "language": "French",
+          "multiverseId": 448033,
+          "name": "Dispersion d'essence",
+          "text": "Contrecarrez le sort de créature ciblé.",
+          "type": "Éphémère"
+        },
+        {
+          "flavorText": "Il culto della fortuna è condannato nei rigorosi studi di Kefnet. Coloro che sperano di superare il suo labirinto affidandosi alla sorte sono perduti.",
+          "language": "Italian",
+          "multiverseId": 448314,
+          "name": "Disperdere Essenza",
+          "text": "Neutralizza una magia creatura bersaglio.",
+          "type": "Istantaneo"
+        },
+        {
+          "flavorText": "ケフネトの厳格な学徒たちは運に頼ることを嫌う。その迷路から運任せで抜け出そうとしても決して成功しない。",
+          "language": "Japanese",
+          "multiverseId": 448595,
+          "name": "本質の散乱",
+          "text": "クリーチャー・呪文１つを対象とし、それを打ち消す。",
+          "type": "インスタント"
+        },
+        {
+          "flavorText": "케프넷의 왕성한 연구에서 운적 요소는 모두 배제된다. 운에 의지해 그의 미로를 탈출하려는 시도는 늘 실패로 끝난다.",
+          "language": "Korean",
+          "multiverseId": 448876,
+          "name": "정수 흩날리기",
+          "text": "생물 주문을 목표로 정한다. 그 주문을 무효화한다.",
+          "type": "순간마법"
+        },
+        {
+          "flavorText": "Depender da sorte é um insulto aos estudos rigorosos de Kefnet. Aqueles que contam com ela para sair do seu labirinto jamais conseguem.",
+          "language": "Portuguese (Brazil)",
+          "multiverseId": 449157,
+          "name": "Espalhar Essência",
+          "text": "Anule a mágica de criatura alvo.",
+          "type": "Mágica Instantânea"
+        },
+        {
+          "flavorText": "Нет ничего хуже, чем в скрупулезных исследованиях Кефнета полагаться на удачу. Везение еще никому не помогало выбраться из его лабиринта.",
+          "language": "Russian",
+          "multiverseId": 449438,
+          "name": "Разлет Эссенции",
+          "text": "Отмените целевое заклинание существа.",
+          "type": "Мгновенное заклинание"
+        },
+        {
+          "flavorText": "刻法涅的缜密研究中容不得半点投机取巧。希望靠运气走出他迷宫的人从未成功。",
+          "language": "Chinese Simplified",
+          "multiverseId": 449719,
+          "name": "菁华离散",
+          "text": "反击目标生物咒语。",
+          "type": "瞬间"
+        },
+        {
+          "flavorText": "刻法涅的縝密研究中容不得半點投機取巧。希望靠運氣走出他迷宮的人從未成功。",
+          "language": "Chinese Traditional",
+          "multiverseId": 450000,
+          "name": "菁華離散",
+          "text": "反擊目標生物咒語。",
+          "type": "瞬間"
+        }
+      ],
+      "frameVersion": "2015",
+      "hasFoil": true,
+      "hasNonFoil": true,
+      "isArena": true,
+      "isMtgo": true,
+      "isPaper": true,
+      "isReprint": true,
+      "layout": "normal",
+      "legalities": {
+        "commander": "Legal",
+        "duel": "Legal",
+        "historic": "Legal",
+        "legacy": "Legal",
+        "modern": "Legal",
+        "pauper": "Legal",
+        "penny": "Legal",
+        "pioneer": "Legal",
+        "vintage": "Legal"
+      },
+      "manaCost": "{1}{U}",
+      "mcmId": 360304,
+      "mcmMetaId": 10596,
+      "mtgArenaId": 67788,
+      "mtgoId": 68269,
+      "multiverseId": 447190,
+      "name": "Essence Scatter",
+      "number": "54",
+      "originalText": "Counter target creature spell.",
+      "originalType": "Instant",
+      "prices": {
+        "mtgo": {
+          "2020-02-18": 0.04
+        },
+        "mtgoFoil": {
+          "2020-02-18": 0.02
+        },
+        "paper": {
+          "2020-02-18": 0.1
+        },
+        "paperFoil": {
+          "2020-02-18": 0.76
+        }
+      },
+      "printings": [
+        "AKH",
+        "DDT",
+        "DPA",
+        "M10",
+        "M13",
+        "M14",
+        "M19",
+        "MB1",
+        "PS11"
+      ],
+      "purchaseUrls": {
+        "cardmarket": "https://mtgjson.com/links/138c0a7ae9910a12",
+        "tcgplayer": "https://mtgjson.com/links/1f3532fe1b510e71"
+      },
+      "rarity": "common",
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "A “creature spell” is any spell with the type creature, even if it has other types such as artifact or enchantment. Older cards of type summon are also creature spells."
+        }
+      ],
+      "scryfallId": "975f61eb-a121-4f43-93a4-c6f20c6aee84",
+      "scryfallIllustrationId": "22af35ca-8b9b-4268-b8ac-e593e4dd05e4",
+      "scryfallOracleId": "46665089-aa3d-44c3-964d-6638dfbb5782",
+      "subtypes": [],
+      "supertypes": [],
+      "tcgplayerProductId": 169299,
+      "text": "Counter target creature spell.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "uuid": "0e46be56-493d-5fae-816f-e92f4a92066f"
+    },
+    {
+      "artist": "Magali Villeneuve",
+      "borderColor": "black",
+      "colorIdentity": [
+        "U"
+      ],
+      "colors": [
+        "U"
+      ],
+      "convertedManaCost": 2.0,
+      "edhrecRank": 55,
+      "flavorText": "\"As one, nature lifts its voice to tell you this: 'No.'\"",
+      "foreignData": [
+        {
+          "flavorText": "„Mit vereinter Kraft erhebt die Natur ihre Stimme und sagt: ‚Nein.'\"",
+          "language": "German",
+          "multiverseId": 467103,
+          "name": "Negieren",
+          "text": "Neutralisiere einen Nichtkreatur-Zauberspruch deiner Wahl.",
+          "type": "Spontanzauber"
+        },
+        {
+          "flavorText": "\"La naturaleza entera alza la voz para decirte con sus muchas bocas: 'No'\".",
+          "language": "Spanish",
+          "multiverseId": 467383,
+          "name": "Negar",
+          "text": "Contrarresta el hechizo objetivo que no sea de criatura.",
+          "type": "Instantáneo"
+        },
+        {
+          "flavorText": "« Unie, la nature lève la voix pour vous dire \"Non\". »",
+          "language": "French",
+          "multiverseId": 467663,
+          "name": "Négation",
+          "text": "Contrecarrez le sort non-créature ciblé.",
+          "type": "Éphémère"
+        },
+        {
+          "flavorText": "\"Unita, la natura leva la sua voce per dirvi: 'No'.\"",
+          "language": "Italian",
+          "multiverseId": 467943,
+          "name": "Negare",
+          "text": "Neutralizza una magia non creatura bersaglio.",
+          "type": "Istantaneo"
+        },
+        {
+          "flavorText": "「自然がね、あなたに向かって口をそろえて言うのよ。『だめだ。』ってね。」",
+          "language": "Japanese",
+          "multiverseId": 468223,
+          "name": "否認",
+          "text": "クリーチャーでない呪文１つを対象とし、それを打ち消す。",
+          "type": "インスタント"
+        },
+        {
+          "flavorText": "\"자연이 한 마음으로 네게 이 말을 전한다: '안돼.'\"",
+          "language": "Korean",
+          "multiverseId": 468503,
+          "name": "부인",
+          "text": "생물 주문이 아닌 주문을 목표로 정한다. 그 주문을 무효화한다.",
+          "type": "순간마법"
+        },
+        {
+          "flavorText": "\"Em uníssono, a natureza ergue a voz para lhes dizer: 'Não'.\"",
+          "language": "Portuguese (Brazil)",
+          "multiverseId": 468783,
+          "name": "Negar",
+          "text": "Anule a mágica alvo que não seja de criatura.",
+          "type": "Mágica Instantânea"
+        },
+        {
+          "flavorText": "«Вся природа поднимается, чтобы в унисон сказать вам: \"Нет\"».",
+          "language": "Russian",
+          "multiverseId": 469063,
+          "name": "Отвергнуть",
+          "text": "Отмените целевое заклинание, не являющееся заклинанием существа.",
+          "type": "Мгновенное заклинание"
+        },
+        {
+          "flavorText": "「自然万物齐声喝止：『不许。』」",
+          "language": "Chinese Simplified",
+          "multiverseId": 469343,
+          "name": "失效",
+          "text": "反击目标非生物咒语。",
+          "type": "瞬间"
+        },
+        {
+          "flavorText": "「自然萬物齊聲喝止：『不許。』」",
+          "language": "Chinese Traditional",
+          "multiverseId": 469623,
+          "name": "失效",
+          "text": "反擊目標非生物咒語。",
+          "type": "瞬間"
+        }
+      ],
+      "frameVersion": "2015",
+      "hasFoil": true,
+      "hasNonFoil": true,
+      "isArena": true,
+      "isMtgo": true,
+      "isPaper": true,
+      "isReprint": true,
+      "layout": "normal",
+      "legalities": {
+        "brawl": "Legal",
+        "commander": "Legal",
+        "duel": "Legal",
+        "future": "Legal",
+        "historic": "Legal",
+        "legacy": "Legal",
+        "modern": "Legal",
+        "pauper": "Legal",
+        "penny": "Legal",
+        "pioneer": "Legal",
+        "standard": "Legal",
+        "vintage": "Legal"
+      },
+      "manaCost": "{1}{U}",
+      "mcmId": 378267,
+      "mcmMetaId": 9460,
+      "mtgArenaId": 69854,
+      "mtgoId": 73037,
+      "multiverseId": 466823,
+      "name": "Negate",
+      "number": "69",
+      "originalText": "Counter target noncreature spell.",
+      "originalType": "Instant",
+      "prices": {
+        "mtgo": {
+          "2020-02-18": 0.03
+        },
+        "mtgoFoil": {
+          "2020-02-18": 0.03
+        },
+        "paper": {
+          "2020-02-18": 0.08
+        },
+        "paperFoil": {
+          "2020-02-18": 0.58
+        }
+      },
+      "printings": [
+        "AER",
+        "BBD",
+        "CN2",
+        "DPA",
+        "DTK",
+        "M10",
+        "M11",
+        "M12",
+        "M13",
+        "M14",
+        "M15",
+        "M20",
+        "MB1",
+        "MOR",
+        "OGW",
+        "ORI",
+        "P09",
+        "PM20",
+        "PRM",
+        "PS11",
+        "RIX",
+        "SS1"
+      ],
+      "purchaseUrls": {
+        "cardmarket": "https://mtgjson.com/links/dc185e4a7d022c39",
+        "tcgplayer": "https://mtgjson.com/links/6b12d914115b392e"
+      },
+      "rarity": "common",
+      "rulings": [
+        {
+          "date": "2009-10-01",
+          "text": "A “creature spell” is any spell with the type creature, even if it has other types such as artifact or enchantment. Older cards of type summon are also creature spells."
+        }
+      ],
+      "scryfallId": "33b83158-78b4-425e-8379-be3ef038295c",
+      "scryfallIllustrationId": "5ebee670-4898-4816-a90a-3168fd54df0e",
+      "scryfallOracleId": "3407fe41-fdd3-4119-8f70-4bc4590a379f",
+      "subtypes": [],
+      "supertypes": [],
+      "tcgplayerProductId": 192505,
+      "text": "Counter target noncreature spell.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "uuid": "496f2591-188b-53b8-9842-bb2b11638569"
+    }
+  ],
+  "W": [
+    {
+      "artist": "Magali Villeneuve",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "convertedManaCost": 1.0,
+      "edhrecRank": 9663,
+      "flavorText": "\"Whatever faith you have in Serra, she has more in you.\" —Lyra Dawnbringer",
+      "foreignData": [
+        {
+          "flavorText": "„Bewahre dir stets deinen Glauben an Serra, denn sie glaubt auch fest an dich.\" —Lyra Morgenbringer",
+          "language": "German",
+          "multiverseId": 443177,
+          "name": "Heilende Gnade",
+          "text": "Verhindere die nächsten 3 Schadenspunkte, die einem Ziel deiner Wahl in diesem Zug von einer Quelle, die du bestimmst, zugefügt würden. Du erhältst 3 Lebenspunkte dazu.",
+          "type": "Spontanzauber"
+        },
+        {
+          "flavorText": "\"No importa la fe que tú tengas en Serra, ella siempre tiene más en ti\". —Lyra Portaalba",
+          "language": "Spanish",
+          "multiverseId": 443446,
+          "name": "Merced sanadora",
+          "text": "Prevén los siguientes 3 puntos de daño que la fuente de tu elección fuera a hacer a cualquier objetivo este turno. Ganas 3 vidas.",
+          "type": "Instantáneo"
+        },
+        {
+          "flavorText": "« Quelle que soit la force de votre foi en Serra, elle a encore plus foi en vous. » —Lyra Aubevenant",
+          "language": "French",
+          "multiverseId": 443715,
+          "name": "Grâce curative",
+          "text": "Prévenez les 3 prochaines blessures qui devraient être infligées à une cible ce tour-ci par une source de votre choix. Vous gagnez 3 points de vie.",
+          "type": "Éphémère"
+        },
+        {
+          "flavorText": "\"Per quanta fede tu abbia in Serra, lei ne ha di più in te.\" —Lyra Dawnbringer",
+          "language": "Italian",
+          "multiverseId": 443984,
+          "name": "Grazia Sanatrice",
+          "text": "Previeni i prossimi 3 danni che verrebbero inflitti a un qualsiasi bersaglio in questo turno da una fonte a tua scelta. Guadagni 3 punti vita.",
+          "type": "Istantaneo"
+        },
+        {
+          "flavorText": "「あなたがセラにどれほどの信仰心を抱いていても、あの方のあなたへの想いの方が大きいでしょう。」 ――黎明をもたらす者ライラ",
+          "language": "Japanese",
+          "multiverseId": 444253,
+          "name": "治癒の恩寵",
+          "text": "クリーチャー１体かプレインズウォーカー１体かプレイヤー１人を対象とする。このターン、あなたが選んだ発生源１つからそれに与えられるダメージを次の３点軽減する。あなたは３点のライフを得る。",
+          "type": "インスタント"
+        },
+        {
+          "flavorText": "\"당신이 세라에게 어떤 믿음을 가졌든, 그녀는 그 이상으로 당신을 믿고 있다.\" —여명을 가져오는 자 리라",
+          "language": "Korean",
+          "multiverseId": 444522,
+          "name": "치유의 은혜",
+          "text": "원하는 목표를 정한다. 당신이 선택한 원천이 이 턴에 그 목표에게 다음으로 입히려는 피해 3점을 방지한다. 당신은 생명 3점을 얻는다.",
+          "type": "순간마법"
+        },
+        {
+          "flavorText": "\"Qualquer que seja sua fé em Serra, ela tem ainda mais fé em você.\" — Lyra, Portadora da Alvorada",
+          "language": "Portuguese (Brazil)",
+          "multiverseId": 444791,
+          "name": "Graça Curativa",
+          "text": "Previna os próximos 3 pontos de dano que seriam causados a qualquer alvo neste turno por uma fonte à sua escolha. Você ganha 3 pontos de vida.",
+          "type": "Mágica Instantânea"
+        },
+        {
+          "flavorText": "«Как бы истово ты ни верил в Серру, ее вера в тебя сильнее». — Лира, Приносящая Рассвет",
+          "language": "Russian",
+          "multiverseId": 445060,
+          "name": "Целительная Милость",
+          "text": "Предотвратите следующие 3 повреждения, которые должны быть нанесены любой цели в этом ходу источником по вашему выбору. Вы получаете 3 жизни.",
+          "type": "Мгновенное заклинание"
+        },
+        {
+          "flavorText": "「无论你对撒拉有多少信心，她总是更信任你一分。」 ～黎明使者莱拉",
+          "language": "Chinese Simplified",
+          "multiverseId": 445329,
+          "name": "疗伤光辉",
+          "text": "选择一个来源。于本回合中，防止该来源接下来将对任意一个目标造成的3点伤害。你获得3点生命。",
+          "type": "瞬间"
+        },
+        {
+          "flavorText": "「無論你對撒拉有多少信心，她總是更信任你一分。」 ～黎明使者萊拉",
+          "language": "Chinese Traditional",
+          "multiverseId": 445598,
+          "name": "療傷光輝",
+          "text": "選擇一個來源。於本回合中，防止該來源接下來將對任意一個目標造成的3點傷害。你獲得3點生命。",
+          "type": "瞬間"
+        }
+      ],
+      "frameVersion": "2015",
+      "hasFoil": true,
+      "hasNonFoil": true,
+      "isArena": true,
+      "isMtgo": true,
+      "isPaper": true,
+      "layout": "normal",
+      "legalities": {
+        "commander": "Legal",
+        "duel": "Legal",
+        "historic": "Legal",
+        "legacy": "Legal",
+        "modern": "Legal",
+        "pauper": "Legal",
+        "penny": "Legal",
+        "pioneer": "Legal",
+        "vintage": "Legal"
+      },
+      "manaCost": "{W}",
+      "mcmId": 319799,
+      "mcmMetaId": 239433,
+      "mtgArenaId": 67144,
+      "mtgoId": 67505,
+      "multiverseId": 442908,
+      "name": "Healing Grace",
+      "number": "20",
+      "originalText": "Prevent the next 3 damage that would be dealt to any target this turn by a source of your choice. You gain 3 life.",
+      "originalType": "Instant",
+      "prices": {
+        "mtgo": {
+          "2020-03-09": 0.04
+        },
+        "mtgoFoil": {
+          "2020-03-09": 0.01
+        },
+        "paper": {
+          "2020-03-08": 0.05
+        },
+        "paperFoil": {
+          "2020-03-08": 0.18
+        }
+      },
+      "printings": [
+        "DOM",
+        "MB1"
+      ],
+      "purchaseUrls": {
+        "cardmarket": "https://mtgjson.com/links/2d5b8b3f7dbced9a",
+        "tcgplayer": "https://mtgjson.com/links/b539e4be0cac103c"
+      },
+      "rarity": "common",
+      "rulings": [
+        {
+          "date": "2018-04-27",
+          "text": "Healing Grace only targets the creature, planeswalker, or player that will receive the damage prevention “shield.” The source isn’t targeted."
+        },
+        {
+          "date": "2018-04-27",
+          "text": "You choose only one source, even if that source won’t deal 3 damage."
+        },
+        {
+          "date": "2018-04-27",
+          "text": "You gain 3 life as Healing Grace resolves, even if there’s no damage to prevent."
+        }
+      ],
+      "scryfallId": "f7512d31-dc35-4046-a1ba-49b74239c329",
+      "scryfallIllustrationId": "90f3777b-67d7-4d93-b678-ed3e94357661",
+      "scryfallOracleId": "e3b22777-4d5b-4f6c-a339-24d204bd007e",
+      "subtypes": [],
+      "supertypes": [],
+      "tcgplayerProductId": 162198,
+      "text": "Prevent the next 3 damage that would be dealt to any target this turn by a source of your choice. You gain 3 life.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "uuid": "5426f2a9-23e0-568c-9e8d-2f8158bcf5a0"
+    },
+    {
+      "artist": "Sidharth Chaturvedi",
+      "borderColor": "black",
+      "colorIdentity": [
+        "W"
+      ],
+      "colors": [
+        "W"
+      ],
+      "convertedManaCost": 2.0,
+      "edhrecRank": 8592,
+      "flavorText": "\"I feel the presence of the God-Pharaoh in the Second Sun, and I rise upon its rays.\"",
+      "foreignData": [
+        {
+          "flavorText": "„Ich spüre in der Zweiten Sonne die Herrlichkeit des Gott-Pharaos und erhebe mich auf ihren Strahlen.\"",
+          "language": "German",
+          "multiverseId": 447445,
+          "name": "Mächtiger Sprung",
+          "text": "Eine Kreatur deiner Wahl erhält +2/+2 und Flugfähigkeit bis zum Ende des Zuges.",
+          "type": "Spontanzauber"
+        },
+        {
+          "flavorText": "\"Percibo la presencia del Dios Faraón en el Segundo Sol, y sus rayos me elevan\".",
+          "language": "Spanish",
+          "multiverseId": 447726,
+          "name": "Salto formidable",
+          "text": "La criatura objetivo obtiene +2/+2 y gana la habilidad de volar hasta el final del turno.",
+          "type": "Instantáneo"
+        },
+        {
+          "flavorText": "« Je sens la présence du Dieu-Pharaon dans le Second Soleil et je m'élève, portée par ses rayons. »",
+          "language": "French",
+          "multiverseId": 448007,
+          "name": "Sacré saut",
+          "text": "La créature ciblée gagne +2/+2 et acquiert le vol jusqu'à la fin du tour.",
+          "type": "Éphémère"
+        },
+        {
+          "flavorText": "\"Avverto la presenza del Dio Faraone nel secondo sole e mi innalzo dinanzi ai suoi raggi.\"",
+          "language": "Italian",
+          "multiverseId": 448288,
+          "name": "Balzo Possente",
+          "text": "Una creatura bersaglio prende +2/+2 e ha volare fino alla fine del turno.",
+          "type": "Istantaneo"
+        },
+        {
+          "flavorText": "「副陽に王神の存在を感じる。私はその光に向かうわ。」",
+          "language": "Japanese",
+          "multiverseId": 448569,
+          "name": "力強い跳躍",
+          "text": "クリーチャー１体を対象とする。ターン終了時まで、それは＋２/＋２の修整を受け、飛行を得る。",
+          "type": "インスタント"
+        },
+        {
+          "flavorText": "\"두 번째 태양에서 신 파라오의 존재가 느껴진다. 난 그 빛을 받고 일어서리라.\"",
+          "language": "Korean",
+          "multiverseId": 448850,
+          "name": "힘찬 도약",
+          "text": "생물을 목표로 정한다. 그 생물은 턴종료까지 +2/+2를 받고 비행을 얻는다.",
+          "type": "순간마법"
+        },
+        {
+          "flavorText": "\"Sinto a presença do Faraó-Deus no Segundo Sol, e seus raios me elevam.\"",
+          "language": "Portuguese (Brazil)",
+          "multiverseId": 449131,
+          "name": "Salto Poderoso",
+          "text": "A criatura alvo recebe +2/+2 e ganha voar até o final do turno.",
+          "type": "Mágica Instantânea"
+        },
+        {
+          "flavorText": "«Я чувствую Бога-Фараона во Втором Солнце — и поднимаюсь на его лучах».",
+          "language": "Russian",
+          "multiverseId": 449412,
+          "name": "Мощный Прыжок",
+          "text": "Целевое существо получает +2/+2 и Полет до конца хода.",
+          "type": "Мгновенное заклинание"
+        },
+        {
+          "flavorText": "「我感受到神日中法老神的存在，我朝其光芒而起。」",
+          "language": "Chinese Simplified",
+          "multiverseId": 449693,
+          "name": "大步飞跃",
+          "text": "直到回合结束，目标生物得+2/+2且获得飞行异能。",
+          "type": "瞬间"
+        },
+        {
+          "flavorText": "「我感受到神日中法老神的存在，我朝其光芒而起。」",
+          "language": "Chinese Traditional",
+          "multiverseId": 449974,
+          "name": "大步飛躍",
+          "text": "直到回合結束，目標生物得+2/+2且獲得飛行異能。",
+          "type": "瞬間"
+        }
+      ],
+      "frameVersion": "2015",
+      "hasFoil": true,
+      "hasNonFoil": true,
+      "isArena": true,
+      "isMtgo": true,
+      "isPaper": true,
+      "isReprint": true,
+      "layout": "normal",
+      "legalities": {
+        "commander": "Legal",
+        "duel": "Legal",
+        "historic": "Legal",
+        "legacy": "Legal",
+        "modern": "Legal",
+        "pauper": "Legal",
+        "penny": "Legal",
+        "pioneer": "Legal",
+        "vintage": "Legal"
+      },
+      "manaCost": "{1}{W}",
+      "mcmId": 359589,
+      "mcmMetaId": 200376,
+      "mtgArenaId": 67736,
+      "mtgoId": 68217,
+      "multiverseId": 447164,
+      "name": "Mighty Leap",
+      "number": "28",
+      "originalText": "Target creature gets +2/+2 and gains flying until end of turn.",
+      "originalType": "Instant",
+      "prices": {
+        "mtgo": {
+          "2020-02-18": 0.04
+        },
+        "mtgoFoil": {
+          "2020-02-18": 0.01
+        },
+        "paper": {
+          "2020-02-18": 0.02
+        },
+        "paperFoil": {
+          "2020-02-18": 0.07
+        }
+      },
+      "printings": [
+        "AKH",
+        "DDF",
+        "DDG",
+        "DDO",
+        "GN2",
+        "M11",
+        "M12",
+        "M19",
+        "MM2",
+        "OGW",
+        "ORI"
+      ],
+      "purchaseUrls": {
+        "cardmarket": "https://mtgjson.com/links/8f8eb3a2798782f1",
+        "tcgplayer": "https://mtgjson.com/links/fe1090d67329dc14"
+      },
+      "rarity": "common",
+      "rulings": [
+        {
+          "date": "2018-07-13",
+          "text": "Giving a creature flying after it’s already been blocked won’t change or undo that block. If you want to affect what can block the creature, you must cast Mighty Leap during the declare attackers step at the latest."
+        }
+      ],
+      "scryfallId": "dc45dcdd-ed92-43f6-b6d2-670b3252ed27",
+      "scryfallIllustrationId": "d935786d-07df-45be-a4be-7edda5fb96dc",
+      "scryfallOracleId": "593caa15-e1d1-477f-bbb4-124d7a7b81f3",
+      "subtypes": [],
+      "supertypes": [],
+      "tcgplayerProductId": 166711,
+      "text": "Target creature gets +2/+2 and gains flying until end of turn.",
+      "type": "Instant",
+      "types": [
+        "Instant"
+      ],
+      "uuid": "4ddc2113-5134-5d5d-a8ba-c9dd3966528c"
+    }
+  ]
+}
